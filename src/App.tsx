@@ -6,7 +6,7 @@ import { Sobre } from './components/sections/Sobre/Sobre';
 import Projetos from './components/sections/Projetos/Projetos';
 import { Experiencias } from './components/sections/Experiencias/Experiencias';
 import WhatsAppButton from './components/WhatsAppButton/WhatsAppButton';
-import Contato from './components/Contato/Contato';
+import Contato from './components/sections/Contato/Contato';
 
 export default function App() {
   const showSection = (section: string) => {

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App.tsx';
 import { ThemeProvider } from './context/ThemeContext/ThemeContext.tsx';
-import NotFound from './components/sections/NotFound/NotFound.tsx';
+import NotFound from './pages/NotFound/NotFound.tsx';
 import Footer from './components/Footer/Footer.tsx';
 import './index.css';
 
