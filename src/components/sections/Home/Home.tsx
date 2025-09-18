@@ -18,7 +18,7 @@ export default function Home() {
   };
 
   return (
-    <section className="w-full min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-24 gap-10 bg-background-light dark:bg-background-dark transition-colors">
+    <section className="w-full min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-6 md:px-24 gap-10 bg-background-light dark:bg-background-dark transition-colors">
       {/* Intro */}
       <div className="flex-1 flex flex-col gap-6">
         <motion.div
@@ -57,6 +57,7 @@ export default function Home() {
 
         {/* Actions */}
         <div className="flex gap-4 mt-4">
+          {/* Contate-me (WhatsApp) */}
           <a
             href={`https://wa.me/5562982661883?text=${encodeURIComponent(
               'Olá Laysa, gostaria de falar com você!',
@@ -66,6 +67,15 @@ export default function Home() {
             className="px-6 py-3 border-2 border-accent-light dark:border-accent-dark text-accent-light dark:text-accent-dark rounded-md hover:bg-accent-light hover:text-white dark:hover:bg-accent-dark dark:hover:text-white transition-colors font-medium"
           >
             Contate-me
+          </a>
+
+          {/* Download Currículo */}
+          <a
+            href="/curriculo.pdf"
+            download
+            className="px-6 py-3 border-2 border-accent-light dark:border-accent-dark text-accent-light dark:text-accent-dark rounded-md hover:bg-accent-light hover:text-white dark:hover:bg-accent-dark dark:hover:text-white transition-colors font-medium"
+          >
+            Download Currículo
           </a>
         </div>
       </div>
@@ -77,11 +87,17 @@ export default function Home() {
           target="_blank"
           className="relative group"
         >
+          {/* Halo externo animado */}
+          <span className="absolute inset-0 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 blur-2xl opacity-40 group-hover:opacity-80 transition-opacity duration-500"></span>
+
           <img
             src="./src/assets/perfil.jpeg"
             alt="Avatar Laysa"
-            className="w-64 h-64 md:w-72 md:h-72 rounded-full object-cover shadow-2xl transition-transform duration-500 group-hover:scale-105"
+            className="relative w-64 h-64 md:w-72 md:h-72 rounded-full object-cover shadow-2xl transition-transform duration-500 group-hover:scale-105"
           />
+
+          {/* Opcional: borda neon sutil */}
+          <span className="absolute inset-0 rounded-full border-2 border-white/20 dark:border-black/20"></span>
         </a>
       </div>
     </section>
