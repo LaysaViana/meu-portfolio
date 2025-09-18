@@ -21,7 +21,7 @@ export default function Contato({ profile = MOCK_PROFILE }: ContactProps) {
   return (
     <section
       id="contato"
-      className="min-h-screen flex flex-col lg:flex-row items-center justify-center bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white px-6 py-16 gap-10 relative"
+      className="min-h-screen flex flex-col lg:flex-row items-center justify-center bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white px-6 py-16 gap-10 relative w-full"
     >
       {/* Informações de contato */}
       <div className="flex-1 max-w-lg flex flex-col gap-6 text-center lg:text-left">
