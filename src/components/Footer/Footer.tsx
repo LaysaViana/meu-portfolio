@@ -2,7 +2,13 @@ import { FiLinkedin, FiGithub } from 'react-icons/fi';
 
 export default function Footer() {
   return (
-    <footer className="py-4 text-center bg-gray-200 dark:bg-gray-900 text-black dark:text-white flex flex-col items-center gap-2">
+    <footer
+      className="py-4 text-center
+        bg-gray-200 dark:bg-slate-900
+        text-black dark:text-white
+        flex flex-col items-center gap-2
+        border-t border-gray-200 dark:border-slate-700"
+    >
       <div>
         Copyright © 2024 Laysa Alves Viana. Todos os direitos reservados.
       </div>
