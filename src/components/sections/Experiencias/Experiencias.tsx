@@ -85,7 +85,13 @@ export const Experiencias = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: index * 0.1 }}
-            className="bg-gray-100 dark:bg-gray-900 p-6 rounded-3xl shadow-lg hover:shadow-2xl transition-transform transform hover:-translate-y-2 flex flex-col"
+            className="
+        bg-gray-100 dark:bg-slate-900
+        p-6 rounded-3xl shadow-lg hover:shadow-2xl
+        transition-transform transform hover:-translate-y-2
+        flex flex-col
+        border border-gray-200 dark:border-slate-700
+      "
           >
             {/* topo do card: logo + empresa */}
             <div className="flex items-center gap-4 mb-4">
