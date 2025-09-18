@@ -49,7 +49,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark transition-colors">
+    <div className="min-h-screen flex flex-col bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark transition-colors overflow-x-hidden bg-gray-100 dark:bg-slate-900">
       <Header toggleSection={showSection} />
       <main className="flex-1 pt-16">
         <SectionWrapper id="home">
@@ -72,7 +72,7 @@ export default function App() {
           <Contato />
         </SectionWrapper>
       </main>
-      <WhatsAppButton phone="+556299999999" message="Olá!" />{' '}
+      <WhatsAppButton phone="+556299999999" message="Olá!" />
     </div>
   );
 }
