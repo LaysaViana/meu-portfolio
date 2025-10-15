@@ -12,8 +12,8 @@ type ContactProps = {
 };
 
 const MOCK_PROFILE = {
-  phone: '+55 62 99999-9999',
-  address: 'Rua Exemplo, 123, São Paulo - SP',
+  phone: '+55 62 98266-1883',
+  address: 'Goiânia - GO',
   email: 'laysa.viana@outlook.com',
 };
 
@@ -24,21 +24,45 @@ export default function Contato({ profile = MOCK_PROFILE }: ContactProps) {
       className="min-h-screen flex flex-col lg:flex-row items-center justify-center bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white px-6 py-16 gap-10 relative w-full"
     >
       {/* Informações de contato */}
-      <div className="flex-1 max-w-lg flex flex-col gap-6 text-center lg:text-left">
+      <div
+        className="flex-1 max-w-lg flex flex-col gap-6 text-center lg:text-left text-black dark:text-transparent
+  dark:bg-gradient-to-r dark:from-pink-500 dark:via-purple-500 dark:to-indigo-500 dark:bg-clip-text"
+      >
         <h2 className="text-4xl font-bold">Entre em contato comigo!</h2>
         <p className="text-gray-700 dark:text-gray-300">
           Estou disponível para projetos, colaborações ou para bater um papo.
         </p>
         {profile.phone && (
-          <p className="text-gray-700 dark:text-gray-300">📞 {profile.phone}</p>
+          <p className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
+            {' '}
+            <img
+              src="./src/assets/phone.png"
+              alt="Telefone"
+              className="w-7 h-7"
+            />
+            {profile.phone}
+          </p>
         )}
         {profile.address && (
-          <p className="text-gray-700 dark:text-gray-300">
-            🏠 {profile.address}
+          <p className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
+            <img
+              src="./src/assets/home.png"
+              alt="Telefone"
+              className="w-7 h-7"
+            />
+            {profile.address}
           </p>
         )}
         {profile.email && (
-          <p className="text-gray-700 dark:text-gray-300">✉️ {profile.email}</p>
+          <p className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
+            {' '}
+            <img
+              src="./src/assets/email.png"
+              alt="Telefone"
+              className="w-7 h-7"
+            />
+            {profile.email}
+          </p>
         )}
       </div>
 
@@ -113,7 +137,10 @@ export default function Contato({ profile = MOCK_PROFILE }: ContactProps) {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full py-3 mt-2 rounded-md bg-red-600 hover:bg-red-700 transition-colors font-semibold text-white"
+                className="w-full py-3 mt-2 rounded-md border-2 border-black dark:border-white 
+    text-black dark:text-white px-4 py-2 font-semibold 
+    hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black 
+    transition-colors text-sm md:text-base"
               >
                 {isSubmitting ? 'Enviando...' : 'Enviar'}
               </button>
