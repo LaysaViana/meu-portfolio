@@ -39,7 +39,11 @@ export default function Projetos() {
 
   return (
     <section className="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-      <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-12 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">
+      <h2
+        className="text-3xl md:text-4xl font-bold text-center mb-12
+  text-black dark:text-transparent
+  dark:bg-gradient-to-r dark:from-pink-500 dark:via-purple-500 dark:to-indigo-500 dark:bg-clip-text"
+      >
         Meus projetos pessoais
       </h2>
 
@@ -85,7 +89,11 @@ export default function Projetos() {
                 href={projeto.site}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 dark:hover:bg-blue-500 transition text-sm md:text-base"
+                className="bg-black text-white px-4 py-2 rounded-lg border-2 border-black 
+    hover:bg-white hover:text-black 
+    dark:bg-white dark:text-black dark:border-white 
+    dark:hover:bg-black dark:hover:text-white
+    transition-colors text-sm md:text-base"
               >
                 Acessar projeto
               </a>
@@ -93,7 +101,9 @@ export default function Projetos() {
                 href={projeto.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border border-gray-400 px-4 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition text-sm md:text-base"
+                className="border border-gray-400 text-black dark:text-white px-4 py-2 rounded-lg 
+    hover:bg-gray-100 dark:hover:bg-black dark:hover:text-white 
+    transition text-sm md:text-base"
               >
                 Acessar repositório
               </a>

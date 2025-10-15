@@ -72,7 +72,11 @@ export const Experiencias = () => {
       id="experiencias"
       className="max-w-6xl mx-auto px-6 py-12 flex flex-col gap-12"
     >
-      <h2 className="text-4xl font-extrabold text-center bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent mb-10">
+      <h2
+        className="text-4xl md:text-4xl font-bold text-center mb-5
+  text-black dark:text-transparent
+  dark:bg-gradient-to-r dark:from-pink-500 dark:via-purple-500 dark:to-indigo-500 dark:bg-clip-text"
+      >
         Experiência Profissional
       </h2>
 

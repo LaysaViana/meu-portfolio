@@ -9,7 +9,11 @@ export const Sobre = () => {
       className="max-w-4xl mx-auto px-6 py-12 text-center flex flex-col gap-6"
     >
       {/* Título */}
-      <h2 className="text-3xl font-bold text-primary-light dark:text-primary-dark">
+      <h2
+        className="text-4xl md:text-4xl font-bold text-center mb-5
+  text-black dark:text-transparent
+  dark:bg-gradient-to-r dark:from-pink-500 dark:via-purple-500 dark:to-indigo-500 dark:bg-clip-text"
+      >
         Sobre Mim
       </h2>
 
@@ -35,24 +39,28 @@ export const Sobre = () => {
       </p>
 
       {/* Habilidades */}
-      <div className="mt-6">
-        <h3 className="text-2xl font-semibold text-primary-light dark:text-primary-dark mb-4">
+      <div className="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <h3
+          className="text-4xl md:text-4xl font-bold text-center mb-10
+  text-black dark:text-transparent
+  dark:bg-gradient-to-r dark:from-pink-500 dark:via-purple-500 dark:to-indigo-500 dark:bg-clip-text"
+        >
           Habilidades
         </h3>
         <div className="flex flex-wrap justify-center gap-3">
-          <span className="px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-full text-sm">
+          <span className="px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-full text-sm dark:text-white">
             React
           </span>
-          <span className="px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-full text-sm">
+          <span className="px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-full text-sm dark:text-white">
             TypeScript
           </span>
-          <span className="px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-full text-sm">
+          <span className="px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-full text-sm dark:text-white">
             TailwindCSS
           </span>
-          <span className="px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-full text-sm">
+          <span className="px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-full text-sm dark:text-white">
             Node.js
           </span>
-          <span className="px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-full text-sm">
+          <span className="px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-full text-sm dark:text-white">
             Git & GitHub
           </span>
         </div>

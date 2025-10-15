@@ -28,7 +28,7 @@ export default function Home() {
           animate="visible"
         >
           {/* H1 */}
-          <h1 className="text-3xl md:text-4xl font-semibold text-primary-light dark:text-primary-dark">
+          <h1 className="text-3xl md:text-4xl font-semibold text-primary-light dark:text-transparent dark:bg-gradient-to-r dark:from-pink-500 dark:via-purple-500 dark:to-indigo-500 dark:bg-clip-text mb-5">
             {title.split('').map((char, index) => (
               <motion.span key={index} variants={typingLetter}>
                 {char}
@@ -37,7 +37,7 @@ export default function Home() {
           </h1>
 
           {/* Span */}
-          <span className="text-4xl md:text-5xl font-bold text-accent-light dark:text-accent-dark">
+          <span className="text-4xl md:text-5xl font-bold text-accent-light dark:text-transparent dark:bg-gradient-to-r dark:from-pink-500 dark:via-purple-500 dark:to-indigo-500 dark:bg-clip-text text-center mb-5">
             {name.split('').map((char, index) => (
               <motion.span key={index} variants={typingLetter}>
                 {char}
@@ -64,7 +64,9 @@ export default function Home() {
             )}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 border-2 border-accent-light dark:border-accent-dark text-accent-light dark:text-accent-dark rounded-md hover:bg-accent-light hover:text-white dark:hover:bg-accent-dark dark:hover:text-white transition-colors font-medium"
+            className="px-6 py-3 border-2 border-black dark:border-white text-black dark:text-white rounded-md 
+      hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black 
+      transition-colors font-medium"
           >
             Contate-me
           </a>
@@ -73,7 +75,9 @@ export default function Home() {
           <a
             href="/curriculo.pdf"
             download
-            className="px-6 py-3 border-2 border-accent-light dark:border-accent-dark text-accent-light dark:text-accent-dark rounded-md hover:bg-accent-light hover:text-white dark:hover:bg-accent-dark dark:hover:text-white transition-colors font-medium"
+            className="px-6 py-3 border-2 border-black dark:border-white text-black dark:text-white rounded-md 
+      hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black 
+      transition-colors font-medium"
           >
             Download Currículo
           </a>
