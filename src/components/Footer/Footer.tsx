@@ -9,9 +9,7 @@ export default function Footer() {
         flex flex-col items-center gap-2
         border-t border-gray-200 dark:border-slate-700"
     >
-      <div>
-        Copyright © 2024 Laysa Alves Viana. Todos os direitos reservados.
-      </div>
+      <div>Copyright © 2025 Laysa A. Viana</div>
       <div className="flex gap-4 mt-4 justify-center">
         <a
           href="https://www.linkedin.com/in/seu-perfil"
