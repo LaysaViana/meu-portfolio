@@ -6,9 +6,7 @@ Bem-vindo(a) ao meu portfólio! Este projeto foi desenvolvido com o objetivo de 
 
 ## Visão Geral
 
-Este portfólio foi construído utilizando **React com Vite** e **TypeScript**, buscando performance, organização e escalabilidade.  
-Os dados dinâmicos (sobre mim, experiências, projetos e contatos) são carregados via **React Query**, integrados à API do **JSONBin**.  
-O formulário de contato utiliza o **Formspree**, facilitando o envio de mensagens diretamente pelo site.
+Este portfólio foi construído utilizando **React com Vite** e **TypeScript**, buscando performance, organização e escalabilidade. Os dados dinâmicos (sobre mim, experiências, projetos e contatos) são carregados via **React Query**, integrados à API do **JSONBin**. O formulário de contato utiliza o **Formspree**, facilitando o envio de mensagens diretamente pelo site.
 
 ---
 
