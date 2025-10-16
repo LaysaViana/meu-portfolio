@@ -3,7 +3,7 @@
 Bem-vindo(a) ao meu portfólio! Este projeto foi desenvolvido com o objetivo de apresentar minhas experiências, habilidades e projetos de forma moderna, interativa e responsiva.
 
 <p align="center">
-  <a href="https://seu-projeto.vercel.app" target="_blank">
+  <a href="https://laysa-viana.vercel.app/" target="_blank">
     <button style="background-color:#ff0080;color:white;padding:10px 20px;border:none;border-radius:5px;font-weight:bold;">
       Ver Projeto
     </button>
