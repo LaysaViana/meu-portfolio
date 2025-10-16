@@ -72,7 +72,7 @@ export default function App() {
           <Contato />
         </SectionWrapper>
       </main>
-      <WhatsAppButton phone="+556299999999" message="Olá!" />
+      <WhatsAppButton phone="+5562982661883" message="Olá!" />
     </div>
   );
 }
