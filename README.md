@@ -59,22 +59,23 @@ O React Query faz a requisição e mantém o cache dos dados por 10 minutos, gar
 
 ### Tela Inicial
 
-<p align="start">
-  <img src="./public/mobile-home.png" alt="Home" width="15%">
-  <img src="./public/mobile-claro-home.png" alt="Home" width="15%">
-  </p>
-<p align="start">
-  <img src="./public/desktop-home.png" alt="Home" width="35%">
-  <img src="./public/desktop-claro-home.png" alt="Home" width="35%">
+<p align="left">
+  <img src="./.github/desktop-home.png" alt="Home" width="90%">
+  <img src="./.github/desktop-claro-home.png" alt="Home" width="90%">
 </p>
+<p align="left">
+ <img src="./.github/mobile-home.png" alt="Home Mobile" width="45%">
+  <img src="./.github/mobile-claro-home.png" alt="Home" width="45%">
+  </p>
 
 ### Tela de Contato
 
-<p align="start">
-  <img src="./public/mobile-contato.png" alt="Contato" width="15%">
-    <img src="./public/mobile-claro-contato.png" alt="Contato" width="15%">
-    </p>
-    <p align="start">
-    <img src="./public/desktop-contato.png" alt="Contato" width="30%">
-        <img src="./public/desktop-claro-contato.png" alt="Contato" width="30%">
+<p align="left">
+    <p align="left">
+    <img src="./.github/desktop-contato.png" alt="Contato" width="90%">
+        <img src="./.github/desktop-claro-contato.png" alt="Contato" width="90%">
 </p>
+<p align="left">
+  <img src="./.github/mobile-contato.png" alt="Contato" width="45%">
+    <img src="./.github/mobile-claro-contato.png" alt="Contato" width="45%">
+    </p>
