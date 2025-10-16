@@ -1,10 +1,10 @@
-# 💻 Portfólio — Laysa Viana
+#Portfólio — Laysa Viana
 
 Bem-vindo(a) ao meu portfólio! Este projeto foi desenvolvido com o objetivo de apresentar minhas experiências, habilidades e projetos de forma moderna, interativa e responsiva.
 
 ---
 
-## 🧠 Visão Geral
+## Visão Geral
 
 Este portfólio foi construído utilizando **React com Vite** e **TypeScript**, buscando performance, organização e escalabilidade.  
 Os dados dinâmicos (sobre mim, experiências, projetos e contatos) são carregados via **React Query**, integrados à API do **JSONBin**.  
@@ -12,7 +12,7 @@ O formulário de contato utiliza o **Formspree**, facilitando o envio de mensage
 
 ---
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 
 - 🔹 **Seções dinâmicas** (Sobre, Experiências, Projetos, Contato) consumindo dados de uma API pública (JSONBin)
 - 🔹 **Formulário funcional** com integração ao **Formspree**
@@ -27,7 +27,7 @@ O formulário de contato utiliza o **Formspree**, facilitando o envio de mensage
 
 ## 🧩 Tecnologias Utilizadas
 
-### 🖥️ Frontend
+### Frontend
 
 - [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
@@ -35,13 +35,13 @@ O formulário de contato utiliza o **Formspree**, facilitando o envio de mensage
 - [TailwindCSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
 
-### ⚙️ Estado & Dados
+### Estado & Dados
 
 - [@tanstack/react-query](https://tanstack.com/query/latest)
 - [JSONBin API](https://jsonbin.io)
 - [Formspree](https://formspree.io)
 
-### 🧰 Utilitários
+### Utilitários
 
 - [Formik](https://formik.org/)
 - [Yup](https://github.com/jquense/yup)
@@ -50,14 +50,14 @@ O formulário de contato utiliza o **Formspree**, facilitando o envio de mensage
 
 ---
 
-## 🔗 Integrações
+## Integrações
 
 ### 🗄️ JSONBin
 
 Os dados do portfólio (sobre, experiências, projetos e contatos) são armazenados em um **bin público** no JSONBin.  
 O React Query faz a requisição e mantém o cache dos dados por 10 minutos, garantindo performance e evitando chamadas desnecessárias.
 
-## 🖥️ Preview do projeto
+## Preview do projeto
 
 ### Tela Inicial
 
