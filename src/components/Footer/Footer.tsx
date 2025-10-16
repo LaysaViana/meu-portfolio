@@ -12,7 +12,7 @@ export default function Footer() {
       <div>Copyright © 2025 Laysa A. Viana</div>
       <div className="flex gap-4 mt-4 justify-center">
         <a
-          href="https://www.linkedin.com/in/seu-perfil"
+          href="https://www.linkedin.com/in/laysa-viana"
           target="_blank"
           rel="noreferrer"
           className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-colors"
@@ -21,7 +21,7 @@ export default function Footer() {
         </a>
 
         <a
-          href="https://github.com/seu-usuario"
+          href="https://github.com/LaysaViana"
           target="_blank"
           rel="noreferrer"
           className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
