@@ -56,7 +56,7 @@ export default function App() {
           <Home />
         </SectionWrapper>
 
-        <SectionWrapper id="sobre">
+        <SectionWrapper id="sobre mim">
           <Sobre />
         </SectionWrapper>
 

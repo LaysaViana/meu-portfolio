@@ -18,7 +18,7 @@ export default function Header({ toggleSection }: HeaderProps) {
     setIsOpen(false);
   };
 
-  const menuItems = ['home', 'sobre mim', 'experiência', 'projetos', 'contato'];
+  const menuItems = ['home', 'sobre mim', 'experiencia', 'projetos', 'contato'];
 
   return (
     <header
