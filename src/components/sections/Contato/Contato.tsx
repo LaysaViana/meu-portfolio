@@ -5,6 +5,10 @@ import { useContatoValidation } from './useContatoValidation';
 import { useSendContact } from '../../../hooks/useSendContact';
 import toast from 'react-hot-toast';
 
+import PhoneIcon from '/assets/phone.png';
+import HomeIcon from '/assets/home.png';
+import EmailIcon from '/assets/email.png';
+
 export default function ContatoForm() {
   const { data, isLoading, isError } = usePortfolioData();
   const sendContact = useSendContact();
@@ -42,27 +46,19 @@ export default function ContatoForm() {
         </p>
         {dataContacts?.phone && (
           <p className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
-            <img
-              src="./src/assets/phone.png"
-              alt="Telefone"
-              className="w-7 h-7"
-            />
+            <img src={PhoneIcon} alt="Telefone" className="w-7 h-7" />
             {dataContacts?.phone}
           </p>
         )}
         {dataContacts.address && (
           <p className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
-            <img
-              src="./src/assets/home.png"
-              alt="Telefone"
-              className="w-7 h-7"
-            />
+            <img src={HomeIcon} alt="Home" className="w-7 h-7" />
             {dataContacts.address}
           </p>
         )}
         {dataContacts.email && (
           <p className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
-            <img src="./src/assets/email.png" alt="Email" className="w-7 h-7" />
+            <img src={EmailIcon} alt="Email" className="w-7 h-7" />
             {dataContacts.email}
           </p>
         )}

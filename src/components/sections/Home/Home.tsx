@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Avatar from '/assets/perfil.jpeg';
 
 export default function Home() {
   const title = 'Olá, eu sou a';
@@ -86,7 +87,7 @@ export default function Home() {
           <span className="absolute inset-0 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 blur-2xl opacity-40 group-hover:opacity-80 transition-opacity duration-500"></span>
 
           <img
-            src="./src/assets/perfil.jpeg"
+            src={Avatar}
             alt="Avatar Laysa"
             className="relative w-64 h-64 md:w-72 md:h-72 rounded-full object-cover shadow-2xl transition-transform duration-500 group-hover:scale-105"
           />
