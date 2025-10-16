@@ -18,7 +18,7 @@ export default function Header({ toggleSection }: HeaderProps) {
     setIsOpen(false);
   };
 
-  const menuItems = ['home', 'sobre', 'experiencia', 'projetos', 'contato'];
+  const menuItems = ['home', 'sobre mim', 'experiência', 'projetos', 'contato'];
 
   return (
     <header
@@ -30,7 +30,6 @@ export default function Header({ toggleSection }: HeaderProps) {
     font-sans transition-colors z-50
     dark:border-b dark:border-gray-700"
     >
-      {/* Botão hambúrguer */}
       <button
         className={`flex flex-col gap-1 z-50 p-3 
     bg-gray-300 dark:bg-gradient-to-r dark:from-pink-500 dark:via-purple-500 dark:to-indigo-500
@@ -57,7 +56,6 @@ export default function Header({ toggleSection }: HeaderProps) {
         />
       </button>
 
-      {/* Botão de tema */}
       <div className="flex items-center ml-4">
         <label className="relative inline-flex items-center cursor-pointer">
           <input
@@ -67,7 +65,6 @@ export default function Header({ toggleSection }: HeaderProps) {
             className="sr-only peer"
           />
 
-          {/* Track com gradiente profissional */}
           <div
             className="
       w-14 h-7 rounded-full
@@ -78,7 +75,6 @@ export default function Header({ toggleSection }: HeaderProps) {
     "
           ></div>
 
-          {/* Knob estilizado */}
           <span
             className="
       absolute left-1 top-0.5 w-6 h-6 rounded-full
@@ -91,7 +87,6 @@ export default function Header({ toggleSection }: HeaderProps) {
         </label>
       </div>
 
-      {/* Sidebar menu com slide */}
       <nav
         className={`fixed top-[64px] left-0 w-64 
     bg-gray-200 dark:bg-gray-800/30 
@@ -107,7 +102,7 @@ export default function Header({ toggleSection }: HeaderProps) {
             key={section}
             onClick={() => handleClick(section)}
             className={`relative text-lg sm:text-xl font-medium 
-        text-gray-800 dark:text-white
+        text-gray-700 dark:text-white
         w-full text-left px-6 py-4 transition-all duration-300
         hover:bg-gray-300/50 dark:hover:bg-gray-700/40
         hover:backdrop-blur-sm 
