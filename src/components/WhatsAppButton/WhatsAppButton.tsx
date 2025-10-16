@@ -1,8 +1,8 @@
 import { FaWhatsapp } from 'react-icons/fa';
 
 type WhatsAppButtonProps = {
-  phone: string; // número no formato internacional +556299999999
-  message?: string; // mensagem inicial opcional
+  phone: string;
+  message?: string;
 };
 
 export default function WhatsAppButton({
