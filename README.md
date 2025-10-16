@@ -1,4 +1,4 @@
-#Portfólio — Laysa Viana
+# Portfólio — Laysa Viana
 
 Bem-vindo(a) ao meu portfólio! Este projeto foi desenvolvido com o objetivo de apresentar minhas experiências, habilidades e projetos de forma moderna, interativa e responsiva.
 
@@ -52,7 +52,7 @@ O formulário de contato utiliza o **Formspree**, facilitando o envio de mensage
 
 ## Integrações
 
-### 🗄️ JSONBin
+### JSONBin
 
 Os dados do portfólio (sobre, experiências, projetos e contatos) são armazenados em um **bin público** no JSONBin.  
 O React Query faz a requisição e mantém o cache dos dados por 10 minutos, garantindo performance e evitando chamadas desnecessárias.
